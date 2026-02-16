@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     canonical: `${SITE_URL}/contact`,
   },
   openGraph: {
-    title: "Contact MasterBrain – Get Expert Guidance",
+    title: "Contact MasterBrain  Get Expert Guidance",
     description:
       "Have questions about ICT A/L classes or professional IT courses? Contact MasterBrain for fast support and personalized guidance.",
     url: `${SITE_URL}/contact`,
