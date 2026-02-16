@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/app/examples/button/page.tsx"],"sourcesContent":["import React from 'react'\n\nfunction page() {\n  return (\n    <div>page</div>\n  )\n}\n\nexport default page"],"names":[],"mappings":"sWAEA,SAAS,EACP,MACE,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI,QAET"}

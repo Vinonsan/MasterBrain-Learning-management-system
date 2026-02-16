@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+  --light: #ffffff;
+  --dark: #212121;
+  --primary: #D32F2F;
+}
+
+@theme inline {
+  --color-light: var(--light);
+  --color-dark: var(--dark);
+  --color-primary: var(--primary);
+  --color-yellow: var(--yellow);
+  --color-orange: var(--orange);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --light: #ffffff;
+    --dark: #212121;
+    --primary: #bd0d22;
+  }
+
+  body {
+    background: var(--dark);
+    color: var(--light);
+  }
+}
+
+body {
+  background: var(--light);
+  color: var(--dark);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+
+.testimonial-swiper {
+  padding-top: 60px;
+}
+
+.testimonial-swiper .swiper-slide {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+.testimonial-swiper .swiper-pagination-bullet {
+  background-color: rgb(var(--primary));
+  opacity: 0.4;
+}
+
+.testimonial-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 32px;
+  border-radius: 999px;
+}
+
+@layer utilities {
+  .shadow-card {
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.15);
+  }
+
+  .shadow-card-hover:hover {
+    box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.25);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-12px) translateX(-6px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}

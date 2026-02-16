@@ -1,0 +1,12 @@
+{
+  "/(site)/about/page": "app/(site)/about/page.js",
+  "/(site)/contact/page": "app/(site)/contact/page.js",
+  "/(site)/course/page": "app/(site)/course/page.js",
+  "/(site)/page": "app/(site)/page.js",
+  "/(site)/study-material/advance-level/page": "app/(site)/study-material/advance-level/page.js",
+  "/(site)/study-material/page": "app/(site)/study-material/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/examples/button/page": "app/examples/button/page.js"
+}
