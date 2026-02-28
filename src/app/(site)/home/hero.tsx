@@ -12,6 +12,14 @@ import {
 import Image from "next/image"
 import { useRouter } from "next/navigation";
 
+const ROTATING_TEXTS = [
+    "A/L ICT Students",
+    "Aspiring Developers",
+    "Next-Gen Engineers",
+    "Post-A/L Learners",
+    "Tech Enthusiasts",
+];
+
 const Hero = () => {
     const features = [
         {
@@ -28,19 +36,11 @@ const Hero = () => {
         },
     ];
 
-    const rotatingTexts = [
-        "A/L ICT Students",
-        "Aspiring Developers",
-        "Next-Gen Engineers",
-        "Post-A/L Learners",
-        "Tech Enthusiasts",
-    ];
-
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setIndex((prev) => (prev + 1) % rotatingTexts.length);
+            setIndex((prev) => (prev + 1) % ROTATING_TEXTS.length);
         }, 2500);
 
         return () => clearInterval(interval);
@@ -59,7 +59,7 @@ const Hero = () => {
                     <h1 className="text-4xl sm:text-5xl md:text-6xl  font-extrabold leading-tight tracking-tight text-dark">
                         The Ultimate IT Roadmap for{" "}
                         <span className="relative inline-block text-primary transition-all duration-500">
-                            {rotatingTexts[index]}
+                            {ROTATING_TEXTS[index]}
                             <span className="absolute -bottom-2 left-0 right-0 h-3 rounded-full bg-primary opacity-20 -z-10" />
                         </span>
 
@@ -89,8 +89,8 @@ const Hero = () => {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
-                        {features.map(({ label, icon: Icon }) => (
-                            <div key={label} className="flex items-center gap-2">
+                        {features.map(({ label, icon: Icon }, idx) => (
+                            <div key={`${label}-${idx}`} className="flex items-center gap-2">
                                 <div className="bg-black rounded-full p-1">
                                     <Icon className="h-5 w-5 text-white" />
                                 </div>

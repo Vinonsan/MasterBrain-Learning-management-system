@@ -560,7 +560,8 @@ const Nav = ()=>{
                             src: "/logo.png",
                             alt: "MasterBrain Logo",
                             width: 120,
-                            height: 32
+                            height: 32,
+                            className: "h-8 w-auto"
                         }, void 0, false, {
                             fileName: "[project]/src/components/layouts/Nav.tsx",
                             lineNumber: 31,
@@ -580,17 +581,17 @@ const Nav = ()=>{
                                     children: link.label
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/layouts/Nav.tsx",
-                                    lineNumber: 38,
+                                    lineNumber: 44,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, link.href, false, {
                                 fileName: "[project]/src/components/layouts/Nav.tsx",
-                                lineNumber: 37,
+                                lineNumber: 43,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)))
                     }, void 0, false, {
                         fileName: "[project]/src/components/layouts/Nav.tsx",
-                        lineNumber: 35,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -601,12 +602,12 @@ const Nav = ()=>{
                             children: "Register Now"
                         }, void 0, false, {
                             fileName: "[project]/src/components/layouts/Nav.tsx",
-                            lineNumber: 53,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/components/layouts/Nav.tsx",
-                        lineNumber: 52,
+                        lineNumber: 58,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$base$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -619,12 +620,12 @@ const Nav = ()=>{
                             className: "h-6 w-6"
                         }, void 0, false, {
                             fileName: "[project]/src/components/layouts/Nav.tsx",
-                            lineNumber: 65,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/components/layouts/Nav.tsx",
-                        lineNumber: 58,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -652,13 +653,13 @@ const Nav = ()=>{
                                             children: "Brain"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/layouts/Nav.tsx",
-                                            lineNumber: 78,
+                                            lineNumber: 84,
                                             columnNumber: 23
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/layouts/Nav.tsx",
-                                    lineNumber: 73,
+                                    lineNumber: 79,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$base$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -669,18 +670,18 @@ const Nav = ()=>{
                                         className: "h-6 w-6 text-white"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layouts/Nav.tsx",
-                                        lineNumber: 81,
+                                        lineNumber: 87,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/layouts/Nav.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 86,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/layouts/Nav.tsx",
-                            lineNumber: 72,
+                            lineNumber: 78,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -693,17 +694,17 @@ const Nav = ()=>{
                                         children: link.label
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layouts/Nav.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 94,
                                         columnNumber: 19
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, link.href, false, {
                                     fileName: "[project]/src/components/layouts/Nav.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 93,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0)))
                         }, void 0, false, {
                             fileName: "[project]/src/components/layouts/Nav.tsx",
-                            lineNumber: 85,
+                            lineNumber: 91,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -714,23 +715,23 @@ const Nav = ()=>{
                                 children: "Register Now"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/layouts/Nav.tsx",
-                                lineNumber: 104,
+                                lineNumber: 110,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/layouts/Nav.tsx",
-                            lineNumber: 103,
+                            lineNumber: 109,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/layouts/Nav.tsx",
-                    lineNumber: 71,
+                    lineNumber: 77,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/components/layouts/Nav.tsx",
-                lineNumber: 70,
+                lineNumber: 76,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         ]
