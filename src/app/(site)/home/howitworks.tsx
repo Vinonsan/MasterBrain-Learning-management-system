@@ -107,8 +107,8 @@ const HowItWorks = () => {
           {steps.map((item) => {
             const Icon = item.icon;
             const angleRad = (item.angle * Math.PI) / 180;
-            const x = Math.cos(angleRad) * radius;
-            const y = Math.sin(angleRad) * radius;
+            const x = (Math.cos(angleRad) * radius).toFixed(3);
+            const y = (Math.sin(angleRad) * radius).toFixed(3);
 
             return (
               <div

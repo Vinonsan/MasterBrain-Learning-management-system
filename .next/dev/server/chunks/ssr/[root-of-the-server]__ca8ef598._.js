@@ -58,48 +58,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.0.3_@babel+core@7.2_a6e7fe7b2107bfd5c9e45031e322c5c3/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.0.3_@babel+core@7.2_a6e7fe7b2107bfd5c9e45031e322c5c3/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$base$2f$Badge$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/base/Badge.tsx [app-rsc] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/src/lib/study-material/config'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 ;
 ;
 ;
 ;
-const STUDY_MATERIALS_URL = "/study-material";
-const grades = [
-    {
-        title: "Grade 6",
-        image: "/images/grade6.png",
-        href: `${STUDY_MATERIALS_URL}/grades/6`
-    },
-    {
-        title: "Grade 7",
-        image: "/images/grade7.png",
-        href: `${STUDY_MATERIALS_URL}/grades/7`
-    },
-    {
-        title: "Grade 8",
-        image: "/images/grade8.png",
-        href: `${STUDY_MATERIALS_URL}/grades/8`
-    },
-    {
-        title: "Grade 9",
-        image: "/images/grade9.png",
-        href: `${STUDY_MATERIALS_URL}/grades/9`
-    },
-    {
-        title: "Grade 10",
-        image: "/images/grade10.png",
-        href: `${STUDY_MATERIALS_URL}/grades/10`
-    },
-    {
-        title: "Grade 11",
-        image: "/images/grade11.png",
-        href: `${STUDY_MATERIALS_URL}/grades/11`
-    },
-    {
-        title: "A/L ICT",
-        image: "/images/al-ict.png",
-        href: `${STUDY_MATERIALS_URL}/advance-level`
-    }
-];
+;
 const MainCategoryHero = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "py-10",
@@ -120,7 +88,7 @@ const MainCategoryHero = ()=>{
                                     children: "Exam Papers Collection"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-                                    lineNumber: 29,
+                                    lineNumber: 19,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -128,30 +96,30 @@ const MainCategoryHero = ()=>{
                                     children: "Practice papers for Science, Mathematics, English, and ICT for Grades 6–11 & A/L ICT"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-                                    lineNumber: 32,
+                                    lineNumber: 22,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-                            lineNumber: 27,
+                            lineNumber: 17,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-                        lineNumber: 23,
+                        lineNumber: 13,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-                    lineNumber: 22,
+                    lineNumber: 12,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "lg:col-span-8",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid gap-6 grid-cols-2 md:grid-cols-4",
-                        children: grades.map((grade)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                        children: STUDY_MATERIAL_CATEGORIES.map((grade)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                 href: grade.href,
                                 className: "rounded-2xl bg-white border border-black/10 shadow-md hover:shadow-xl transition overflow-hidden",
                                 children: [
@@ -164,12 +132,12 @@ const MainCategoryHero = ()=>{
                                             className: "object-contain"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-                                            lineNumber: 48,
+                                            lineNumber: 38,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-                                        lineNumber: 47,
+                                        lineNumber: 37,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -179,39 +147,39 @@ const MainCategoryHero = ()=>{
                                             children: grade.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-                                            lineNumber: 57,
+                                            lineNumber: 47,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-                                        lineNumber: 56,
+                                        lineNumber: 46,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
-                            }, grade.title, true, {
+                            }, grade.id, true, {
                                 fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-                                lineNumber: 42,
+                                lineNumber: 32,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0)))
                     }, void 0, false, {
                         fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-                        lineNumber: 40,
+                        lineNumber: 30,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-                    lineNumber: 39,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-            lineNumber: 20,
+            lineNumber: 10,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/app/(site)/study-material/_utils/components/MainCategoryHero.tsx",
-        lineNumber: 19,
+        lineNumber: 9,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -265,7 +233,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 const variantClasses = {
     primary: "bg-primary border-3 border-red-300 text-white hover:bg-primary/90",
     secondary: "bg-black text-white hover:bg-black/90",
-    outline: "border-2 border-black text-black hover:bg-black hover:text-white",
+    outline: "border border-black/50 text-black hover:bg-black hover:text-white",
     ghost: "text-primary hover:bg-primary/10",
     rounded: "bg-primary text-white rounded-full hover:bg-primary/90",
     transparent: "bg-transparent text-black"

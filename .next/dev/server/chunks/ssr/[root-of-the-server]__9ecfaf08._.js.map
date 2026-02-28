@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/admin/Desktop/Master%20brain/MasterBrain-Learning-management-system/src/app/providers.tsx"],"sourcesContent":["\"use client\";\n\nimport { Toaster } from \"react-hot-toast\";\n\nexport default function Providers({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return (\n    <>\n      {children}\n      <Toaster\n        position=\"top-right\"\n        toastOptions={{\n          duration: 4000,\n        }}\n      />\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS,UAAU,EAChC,QAAQ,EAGT;IACC,qBACE;;YACG;0BACD,6VAAC,2QAAO;gBACN,UAAS;gBACT,cAAc;oBACZ,UAAU;gBACZ;;;;;;;;AAIR"}}]
+}
