@@ -68,6 +68,8 @@ const testimonials: Testimonial[] = [
 ];
 
 const Testimonial = () => {
+  const shouldLoop = testimonials.length > 4;
+
   return (
     <section className="relative py-24">
       <div className="container mx-auto px-4">
@@ -86,7 +88,7 @@ const Testimonial = () => {
             effect="coverflow"
             centeredSlides
             grabCursor
-            loop
+            loop={shouldLoop}
             autoplay={{ delay: 4000, disableOnInteraction: false }}
             pagination={{ clickable: true }}
             coverflowEffect={{

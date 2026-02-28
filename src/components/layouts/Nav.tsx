@@ -28,7 +28,13 @@ const Nav = () => {
       <nav className="flex w-full items-center justify-between px-8 py-2 backdrop-blur-md border-b border-black/5 bg-white/80">
  
         <Link href="/" className="text-xl font-bold">
-          <Image src="/logo.png" alt="MasterBrain Logo" width={120} height={32} />
+          <Image
+            src="/logo.png"
+            alt="MasterBrain Logo"
+            width={120}
+            height={32}
+            className="h-8 w-auto"
+          />
         </Link>
 
   
