@@ -303,7 +303,7 @@ const Hero = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-xl text-black/70 max-w-xl",
-                            children: "From A/L ICT fundamentals to real software development — we guide you step-by-step toward becoming a confident developer. MasterBrain Learning Management System offers online IT courses, A/L ICT lessons, coding classes, and practical software engineering training for students who want to build job-ready tech skills."
+                            children: "From A/L ICT fundamentals to real-world software development, MasterBrain LMS provides step-by-step training to help students become confident, job-ready developers. Learn A/L ICT, coding, and practical software engineering through expert-guided online IT courses."
                         }, void 0, false, {
                             fileName: "[project]/src/app/(site)/home/hero.tsx",
                             lineNumber: 20,
@@ -321,13 +321,13 @@ const Hero = ()=>{
                                             size: 18
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(site)/home/hero.tsx",
-                                            lineNumber: 36,
+                                            lineNumber: 32,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(site)/home/hero.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 26,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$base$2f$Button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -340,19 +340,19 @@ const Hero = ()=>{
                                             size: 18
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(site)/home/hero.tsx",
-                                            lineNumber: 45,
+                                            lineNumber: 41,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(site)/home/hero.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 35,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(site)/home/hero.tsx",
-                            lineNumber: 28,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -372,12 +372,12 @@ const Hero = ()=>{
                         className: "relative drop-shadow-2xl"
                     }, void 0, false, {
                         fileName: "[project]/src/app/(site)/home/hero.tsx",
-                        lineNumber: 54,
+                        lineNumber: 50,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/app/(site)/home/hero.tsx",
-                    lineNumber: 52,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]

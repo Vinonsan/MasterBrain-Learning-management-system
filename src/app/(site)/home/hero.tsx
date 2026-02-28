@@ -18,11 +18,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl text-black/70 max-w-xl">
-            From A/L ICT fundamentals to real software development —
-            we guide you step-by-step toward becoming a confident developer.
-             MasterBrain Learning Management System offers online IT courses,
-            A/L ICT lessons, coding classes, and practical software engineering
-            training for students who want to build job-ready tech skills.
+            From A/L ICT fundamentals to real-world software development, MasterBrain LMS provides step-by-step training to help students become confident, job-ready developers. Learn A/L ICT, coding, and practical software engineering through expert-guided online IT courses.
           </p>
 
           <div className="flex gap-4">
