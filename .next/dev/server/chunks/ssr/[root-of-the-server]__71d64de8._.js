@@ -33,7 +33,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 const variantClasses = {
     primary: "bg-primary border-3 border-red-300 text-white hover:bg-primary/90",
     secondary: "bg-black text-white hover:bg-black/90",
-    outline: "border-2 border-black text-black hover:bg-black hover:text-white",
+    outline: "border border-black/50 text-black hover:bg-black hover:text-white",
     ghost: "text-primary hover:bg-primary/10",
     rounded: "bg-primary text-white rounded-full hover:bg-primary/90",
     transparent: "bg-transparent text-black"
@@ -382,7 +382,7 @@ const metadata = {
         canonical: `${SITE_URL}/contact`
     },
     openGraph: {
-        title: "Contact MasterBrain – Get Expert Guidance",
+        title: "Contact MasterBrain  Get Expert Guidance",
         description: "Have questions about ICT A/L classes or professional IT courses? Contact MasterBrain for fast support and personalized guidance.",
         url: `${SITE_URL}/contact`,
         siteName: "MasterBrain",
