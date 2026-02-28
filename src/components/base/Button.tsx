@@ -34,7 +34,7 @@ const variantClasses: Record<ButtonVariant, string> = {
   secondary: "bg-black text-white hover:bg-black/90",
   outline: "border border-black/50 text-black hover:bg-black hover:text-white",
   ghost: "text-primary hover:bg-primary/10",
-  rounded: "bg-primary text-white rounded-full hover:bg-primary/90",
+  rounded: "bg-primary text-white rounded hover:bg-primary/90",
   transparent: "bg-transparent text-black",
 };
 
@@ -51,6 +51,7 @@ const commonClasses = `
   focus:outline-none focus:ring-2 focus:ring-primary/50
   disabled:opacity-50 disabled:cursor-not-allowed
   cursor-pointer
+  rounded-full
 `;
 
 const Button = ({

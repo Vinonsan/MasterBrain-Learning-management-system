@@ -10,7 +10,6 @@ import Button from "@/src/components/base/Button";
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "Courses", href: "/course" },
-   { label: "Study materials", href: "/study-material" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
