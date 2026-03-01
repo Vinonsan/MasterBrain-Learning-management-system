@@ -35,7 +35,7 @@ const variantClasses = {
     secondary: "bg-black text-white hover:bg-black/90",
     outline: "border border-black/50 text-black hover:bg-black hover:text-white",
     ghost: "text-primary hover:bg-primary/10",
-    rounded: "bg-primary text-white rounded-full hover:bg-primary/90",
+    rounded: "bg-primary text-white rounded hover:bg-primary/90",
     transparent: "bg-transparent text-black"
 };
 const sizeClasses = {
@@ -50,6 +50,7 @@ const commonClasses = `
   focus:outline-none focus:ring-2 focus:ring-primary/50
   disabled:opacity-50 disabled:cursor-not-allowed
   cursor-pointer
+  rounded-full
 `;
 const Button = ({ children, variant = "primary", size = "md", className = "", href, ...props })=>{
     const classes = `
@@ -66,7 +67,7 @@ const Button = ({ children, variant = "primary", size = "md", className = "", hr
             children: children
         }, void 0, false, {
             fileName: "[project]/src/components/base/Button.tsx",
-            lineNumber: 73,
+            lineNumber: 74,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0));
     }
@@ -76,7 +77,7 @@ const Button = ({ children, variant = "primary", size = "md", className = "", hr
         children: children
     }, void 0, false, {
         fileName: "[project]/src/components/base/Button.tsx",
-        lineNumber: 80,
+        lineNumber: 81,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

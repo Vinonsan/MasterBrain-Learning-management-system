@@ -37,7 +37,7 @@ const Hero = () => {
               size="lg"
               className="rounded-full px-8 py-4"
             >
-              Explore Courses
+              Explore Resources
               <ArrowRight size={18} />
             </Button>
 

@@ -1,1 +1,1553 @@
-[00:42:54.449] Server  LOG      ✓ Compiled in 87ms
+[00:00:02.017] Server  LOG      ✓ Ready in 1478ms
+[00:00:05.669] Server  LOG      ○ Compiling / ...
+[00:00:17.980] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:41.177] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:41.970] Browser WARN    Image with src "http://localhost:3000/images/hero.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:20.007] Server  LOG      ✓ Compiled in 550ms
+[00:02:21.307] Server  LOG      ✓ Compiled in 670ms
+[00:02:22.292] Browser ERROR   uncaughtError: ReferenceError: Resources is not defined
+[00:02:22.614] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:22.618] Server  LOG      ✓ Compiled in 817ms
+[00:02:26.991] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:27.720] Browser WARN    Image with src "http://localhost:3000/images/hero.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:38.263] Server  LOG      ✓ Compiled in 1478ms
+[00:11:19.644] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:19.695] Server  LOG      ✓ Compiled in 572ms
+[00:11:21.300] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:21.300] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:22.283] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:22.283] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:22.283] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:22.283] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:22.691] Server  LOG      ○ Compiling /_error ...
+[00:11:24.462] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:24.637] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:24.772] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:24.907] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:25.055] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:25.190] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.337] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.338] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.338] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.338] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.338] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.338] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.338] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.338] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.338] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.338] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.338] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:25.426] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:25.578] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:26.513] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:26.694] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:27.399] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:27.514] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:27.684] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.841] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.842] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.842] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:27.942] Server  ERROR    ⨯ ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+
+./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:29.638] Browser ERROR   uncaughtError: Error: ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+
+
+[00:11:30.729] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:30.729] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:33.200] Browser ERROR   ./src/components/layouts/Footer.tsx:17:44
+Parsing ecmascript source code failed
+  15 |   { name: "Courses", href: "/course" },
+  16 |   { name: "About Us", href: "/about" },
+> 17 |   { name: "Contact", href: "/contact" },`r`n  { name: "Resources", href: "/resources" },
+     |                                            ^
+  18 | ];
+  19 |
+  20 | const courses = [
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Footer.tsx
+    ./src/app/(site)/layout.tsx
+[00:11:33.200] Browser ERROR   ./src/components/layouts/Nav.tsx:14:45
+Parsing ecmascript source code failed
+  12 |   { label: "Courses", href: "/course" },
+  13 |   { label: "About", href: "/about" },
+> 14 |   { label: "Contact", href: "/contact" },`r`n  { label: "Resources", href: "/resources" },
+     |                                             ^
+  15 | ];
+  16 |
+  17 | const Nav = () => {
+
+Expected ',', got 'n'
+
+Import trace:
+  Server Component:
+    ./src/components/layouts/Nav.tsx
+    ./src/app/(site)/layout.tsx
+[00:12:32.573] Server  LOG      ✓ Compiled in 372ms
+[00:12:34.522] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:37.498] Browser WARN    Image with src "http://localhost:3000/images/hero.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:47.026] Server  LOG      ○ Compiling /resources ...
+[00:13:38.875] Server  LOG      ✓ Compiled in 288ms

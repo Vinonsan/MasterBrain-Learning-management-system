@@ -1,6 +1,6 @@
 "use client";
 
-import  { useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
@@ -12,6 +12,7 @@ const navLinks = [
   { label: "Courses", href: "/course" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
+  { label: "Resources", href: "/resources" },
 ];
 
 const Nav = () => {
@@ -19,24 +20,21 @@ const Nav = () => {
   const pathname = usePathname();
 
   const isActive = (href: string) =>
-    pathname === href ||
-    (href !== "/" && pathname.startsWith(href));
+    pathname === href || (href !== "/" && pathname.startsWith(href));
 
   return (
     <header className="fixed top-0 z-50 w-full">
       <nav className="flex w-full items-center justify-between px-8 py-2 backdrop-blur-md border-b border-black/5 bg-white/80">
- 
         <Link href="/" className="text-xl font-bold">
           <Image
             src="/logo.png"
             alt="MasterBrain Logo"
-            width={120}
-            height={32}
-            className="h-8 w-auto"
+            width={140}
+            height={60}
+            className="h-16 w-auto"
           />
         </Link>
 
-  
         <ul className="hidden md:flex items-center gap-8 text-sm font-medium">
           {navLinks.map((link) => (
             <li key={link.href}>
@@ -56,13 +54,13 @@ const Nav = () => {
 
         <div className="hidden md:block">
           <Button variant="primary" className="rounded-full px-6">
-             Register Now
+            Register Now
           </Button>
         </div>
 
         <Button
-        size="xs"
-        variant="transparent"
+          size="xs"
+          variant="transparent"
           onClick={() => setOpen(true)}
           className="md:hidden"
           aria-label="Open menu"
