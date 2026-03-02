@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "40aa0c1a3282080aeb1995eedea8f96b",
-    "previewModeSigningKey": "8fc5533aad853e90bb10698cafb2ec9be7a4e992ad15dcfb807a28ef1feb2f95",
-    "previewModeEncryptionKey": "4196b22a35d25ed534bfa8af0e1bae5c4b34f207ffc0c333970ec4f3731f8ad9"
-  }
-}
+{"version":4,"routes":{"/resources/al-ict-past-papers":{},"/resources/web-development-roadmaps":{},"/resources/project-starter-kits":{},"/resources/al-ict-exam-papers":{},"/resources/al-ict-notes":{}},"dynamicRoutes":{"/resources/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/resources/[slug]","routeRegex":"^\\/resources\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"9d3e39314a8197202c2ff5590ad43790","previewModeSigningKey":"d0facf6b4a8e2dcf77c18521de4cab803a29e44e582669f8921c3077b8d60e15","previewModeEncryptionKey":"7f8dc488f5c1236aed1c22d9a0610e1e19eabcfa1cb89c7ef9c6593333424dbe"}}
