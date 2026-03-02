@@ -9,10 +9,12 @@ type ButtonVariant =
   | "transparent";
 
 type ButtonSize = "xs" | "sm" | "md" | "lg";
+type RoundedSize = "sm" | "md" | "lg";
 
 type BaseProps = {
   variant?: ButtonVariant;
   size?: ButtonSize;
+  roundedSize?: RoundedSize;
   className?: string;
   children: React.ReactNode;
 };
@@ -30,34 +32,46 @@ type ButtonAsLink = BaseProps &
 type ButtonProps = ButtonAsButton | ButtonAsLink;
 
 const variantClasses: Record<ButtonVariant, string> = {
-  primary: "bg-primary border-3 border-red-300 text-white hover:bg-primary/90",
-  secondary: "bg-black text-white hover:bg-black/90",
-  outline: "border border-black/50 text-black hover:bg-black hover:text-white",
-  ghost: "text-primary hover:bg-primary/10",
-  rounded: "bg-primary text-white rounded hover:bg-primary/90",
-  transparent: "bg-transparent text-black",
+  primary:
+    "bg-primary text-white hover:bg-primary/90 shadow-sm",
+  secondary:
+    "bg-black text-white hover:bg-black/90",
+  outline:
+    "border border-black/30 text-black hover:bg-black hover:text-white",
+  ghost:
+    "text-primary hover:bg-primary/10",
+  rounded:
+    "bg-primary text-white hover:bg-primary/90",
+  transparent:
+    "bg-transparent text-black",
 };
 
 const sizeClasses: Record<ButtonSize, string> = {
-  xs: "p-1 text-xs",
+  xs: "px-3 py-1 text-xs",
   sm: "px-4 py-2 text-sm",
   md: "px-6 py-3 text-base",
   lg: "px-8 py-4 text-lg",
 };
 
+const roundedClasses: Record<RoundedSize, string> = {
+  sm: "rounded-md",
+  md: "rounded-lg",
+  lg: "rounded-full",
+};
+
 const commonClasses = `
   inline-flex items-center justify-center gap-2
-  font-semibold transition-all
+  font-semibold transition-all duration-200
   focus:outline-none focus:ring-2 focus:ring-primary/50
   disabled:opacity-50 disabled:cursor-not-allowed
   cursor-pointer
-  rounded-full
 `;
 
 const Button = ({
   children,
   variant = "primary",
   size = "md",
+  roundedSize = "md",
   className = "",
   href,
   ...props
@@ -66,19 +80,28 @@ const Button = ({
     ${commonClasses}
     ${variantClasses[variant]}
     ${sizeClasses[size]}
+    ${roundedClasses[roundedSize]}
     ${className}
   `;
 
   if (href) {
     return (
-      <a href={href} className={classes} {...(props as React.AnchorHTMLAttributes<HTMLAnchorElement>)}>
+      <a
+        href={href}
+        className={classes}
+        {...(props as React.AnchorHTMLAttributes<HTMLAnchorElement>)}
+      >
         {children}
       </a>
     );
   }
 
   return (
-    <button className={classes} {...(props as React.ButtonHTMLAttributes<HTMLButtonElement>)}>
+    <button
+      type="button"
+      className={classes}
+      {...(props as React.ButtonHTMLAttributes<HTMLButtonElement>)}
+    >
       {children}
     </button>
   );
