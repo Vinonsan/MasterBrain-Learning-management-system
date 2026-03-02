@@ -5,6 +5,7 @@ import { resourceItems } from "../_utils/resources.data";
 import Button from "@/src/components/base/Button";
 import { FaArrowLeft } from "react-icons/fa";
 import ExamPapersExplorer from "../_utils/components/ExamPapersExplorer";
+import ALNotesExplorer from "../_utils/components/ALNotesExplorer";
 
 const SITE_URL = "https://masterbrain.site";
 
@@ -93,6 +94,7 @@ export default async function ResourceDetailPage({ params }: Props) {
   };
 
   const isExamPaperPage = resource.slug === "al-ict-past-papers";
+  const isAlNotesPage = resource.slug === "al-ict-notes";
 
   return (
     <main className="px-8 py-4">
@@ -124,6 +126,8 @@ export default async function ResourceDetailPage({ params }: Props) {
 
         {isExamPaperPage ? (
           <ExamPapersExplorer />
+        ) : isAlNotesPage ? (
+          <ALNotesExplorer />
         ) : (
           <section className="mt-10 rounded-3xl border border-gray-200 bg-white p-6 shadow-sm md:p-8">
             <h2 className="text-xl font-semibold text-gray-900">Overview</h2>

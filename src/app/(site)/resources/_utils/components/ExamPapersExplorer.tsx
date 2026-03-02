@@ -162,7 +162,7 @@ const papers: PaperItem[] = [
   },
 ];
 
-export default function ExamPapersExplorer() {
+const ExamPapersExplorer = () => {
   const [selectedMedium, setSelectedMedium] = useState<Medium>("English Medium");
   const [selectedCategory, setSelectedCategory] = useState<PaperCategory>("term");
   const [selectedPaper, setSelectedPaper] = useState<PaperKey>("term-1");
@@ -232,3 +232,5 @@ export default function ExamPapersExplorer() {
     </section>
   );
 }
+
+export default ExamPapersExplorer;

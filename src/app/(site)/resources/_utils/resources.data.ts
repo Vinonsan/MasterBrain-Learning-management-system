@@ -9,9 +9,9 @@ export type ResourceItem = {
 export const resourceItems: ResourceItem[] = [
   {
     slug: "al-ict-past-papers",
-    title: "A/L ICT Past Papers",
+    title: "A/L ICT Exam Papers",
     description:
-      "Download curated past papers with marking schemes to prepare for exams with confidence.",
+      "Download curated exam papers with marking schemes to prepare for exams with confidence.",
     tag: "Exam Prep",
     content:
       "This section can include year-wise papers, marking schemes, and topic indexing for faster revision.",

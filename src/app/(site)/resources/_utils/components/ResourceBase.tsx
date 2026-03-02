@@ -1,14 +1,12 @@
 import Link from "next/link";
 import SectionHeading from "@/src/components/layouts/SectionHeading";
 import { resourceItems } from "../resources.data";
-import { FaArrowRight } from "react-icons/fa";
 
 const ResourceBase = () => {
   return (
-    <section className="relative overflow-hidden bg-linear-to-b from-gray-50 via-white to-white py-16">
+    <section className="py-4">
 
-      <div className="mx-auto max-w-7xl px-6">
-
+    
         <SectionHeading
           title="Learning Resources"
           subtitle="Choose a resource to view details and start learning with structured guidance."
@@ -36,29 +34,11 @@ const ResourceBase = () => {
                 {item.description}
               </p>
 
-              <div className="mt-6 flex items-center justify-between">
-
-                <span className="text-sm font-semibold text-primary">
-                  View Resource
-                </span>
-
-                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary/10 text-primary transition group-hover:translate-x-1">
-                  <FaArrowRight className="h-3 w-3" />
-                </span>
-
-              </div>
-
-  
-              <div className="pointer-events-none absolute inset-0 rounded-3xl opacity-0 transition group-hover:opacity-100">
-                <div className="absolute inset-0 rounded-3xl bg-linear-to-r from-primary/10 via-transparent to-primary/10" />
-              </div>
-
             </Link>
           ))}
 
         </div>
 
-      </div>
     </section>
   );
 }
