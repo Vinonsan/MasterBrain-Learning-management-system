@@ -17,6 +17,7 @@ interface ParamMap {
   "/course/[id]": { "id": string; }
   "/examples/button": {}
   "/resources": {}
+  "/resources/[slug]": { "slug": string; }
 }
 
 

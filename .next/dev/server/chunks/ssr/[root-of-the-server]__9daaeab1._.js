@@ -27,32 +27,37 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.0.3_@babel+core@7.2_a6e7fe7b2107bfd5c9e45031e322c5c3/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 ;
 const variantClasses = {
-    primary: "bg-primary border-3 border-red-300 text-white hover:bg-primary/90",
+    primary: "bg-primary text-white hover:bg-primary/90 shadow-sm",
     secondary: "bg-black text-white hover:bg-black/90",
-    outline: "border border-black/50 text-black hover:bg-black hover:text-white",
+    outline: "border border-black/30 text-black hover:bg-black hover:text-white",
     ghost: "text-primary hover:bg-primary/10",
-    rounded: "bg-primary text-white rounded hover:bg-primary/90",
+    rounded: "bg-primary text-white hover:bg-primary/90",
     transparent: "bg-transparent text-black"
 };
 const sizeClasses = {
-    xs: "p-1 text-xs",
+    xs: "px-3 py-1 text-xs",
     sm: "px-4 py-2 text-sm",
     md: "px-6 py-3 text-base",
     lg: "px-8 py-4 text-lg"
 };
+const roundedClasses = {
+    sm: "rounded-md",
+    md: "rounded-lg",
+    lg: "rounded-full"
+};
 const commonClasses = `
   inline-flex items-center justify-center gap-2
-  font-semibold transition-all
+  font-semibold transition-all duration-200
   focus:outline-none focus:ring-2 focus:ring-primary/50
   disabled:opacity-50 disabled:cursor-not-allowed
   cursor-pointer
-  rounded-full
 `;
-const Button = ({ children, variant = "primary", size = "md", className = "", href, ...props })=>{
+const Button = ({ children, variant = "primary", size = "md", roundedSize = "md", className = "", href, ...props })=>{
     const classes = `
     ${commonClasses}
     ${variantClasses[variant]}
     ${sizeClasses[size]}
+    ${roundedClasses[roundedSize]}
     ${className}
   `;
     if (href) {
@@ -63,17 +68,18 @@ const Button = ({ children, variant = "primary", size = "md", className = "", hr
             children: children
         }, void 0, false, {
             fileName: "[project]/src/components/base/Button.tsx",
-            lineNumber: 74,
+            lineNumber: 89,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0));
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$3_$40$babel$2b$core$40$7$2e$2_a6e7fe7b2107bfd5c9e45031e322c5c3$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+        type: "button",
         className: classes,
         ...props,
         children: children
     }, void 0, false, {
         fileName: "[project]/src/components/base/Button.tsx",
-        lineNumber: 81,
+        lineNumber: 100,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

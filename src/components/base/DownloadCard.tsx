@@ -1,40 +1,39 @@
 "use client";
 
 import { useState, useRef } from "react";
-import {
-  Download,
-  FileText,
-  Loader2,
-} from "lucide-react";
+import { Download, FileText, Loader2 } from "lucide-react";
+import Button from "@/src/components/base/Button";
 
 type DownloadCardProps = {
+  paperNumber?: number | string;
   title: string;
   description?: string;
-  driveFileId: string;
+  driveFileId?: string;
 };
 
 const DownloadCard = ({
+  paperNumber,
   title,
   description,
   driveFileId,
 }: DownloadCardProps) => {
-  const downloadUrl = `https://drive.google.com/uc?export=download&id=${driveFileId}`;
+  const downloadUrl = driveFileId
+    ? `https://drive.google.com/uc?export=download&id=${driveFileId}`
+    : "";
 
   const [isDownloading, setIsDownloading] = useState(false);
   const [elapsed, setElapsed] = useState(0);
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const startTimeRef = useRef<number>(0);
 
   const handleDownload = () => {
-    if (isDownloading) return;
+    if (isDownloading || !driveFileId) return;
 
     setIsDownloading(true);
     startTimeRef.current = performance.now();
 
     timerRef.current = setInterval(() => {
-      setElapsed(
-        (performance.now() - startTimeRef.current) / 1000
-      );
+      setElapsed((performance.now() - startTimeRef.current) / 1000);
     }, 100);
 
     const link = document.createElement("a");
@@ -51,10 +50,18 @@ const DownloadCard = ({
   };
 
   return (
-    <div className="group rounded-2xl border border-black/10 bg-white shadow-sm hover:shadow-lg transition px-2 py-4 flex flex-col gap-4">
+    <div className="group rounded-2xl border border-black/10 bg-white shadow-sm hover:shadow-lg transition px-4 py-4 flex flex-col gap-4">
       
-      <div className="w-12 h-12 rounded-xl bg-black/5 flex items-center justify-center">
-        <FileText className="text-black" size={26} />
+      <div className="flex items-center gap-3">
+        <div className="w-12 h-12 rounded-xl bg-red-50 flex items-center justify-center">
+          <FileText className="text-red-700" size={26} />
+        </div>
+
+        {paperNumber && (
+          <span className="text-sm font-semibold text-gray-700">
+            Paper {paperNumber}
+          </span>
+        )}
       </div>
 
       <div className="flex-1">
@@ -69,11 +76,14 @@ const DownloadCard = ({
         )}
       </div>
 
-      {/* Download Button */}
-      <button
+
+      <Button
         onClick={handleDownload}
-        disabled={isDownloading}
-        className="mt-2 inline-flex items-center justify-center gap-2 rounded-xl bg-black px-4 py-2 text-sm font-medium text-white hover:bg-black/90 transition disabled:opacity-70"
+        disabled={isDownloading || !driveFileId}
+        variant="primary"
+        size="sm"
+        roundedSize="md"
+        className="mt-2 w-full"
       >
         {isDownloading ? (
           <>
@@ -83,10 +93,10 @@ const DownloadCard = ({
         ) : (
           <>
             <Download size={16} />
-            Download
+            {driveFileId ? "Download" : "Unavailable"}
           </>
         )}
-      </button>
+      </Button>
     </div>
   );
 };
