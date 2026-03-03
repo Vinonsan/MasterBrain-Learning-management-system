@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "40aa0c1a3282080aeb1995eedea8f96b",
-    "previewModeSigningKey": "8fc5533aad853e90bb10698cafb2ec9be7a4e992ad15dcfb807a28ef1feb2f95",
-    "previewModeEncryptionKey": "4196b22a35d25ed534bfa8af0e1bae5c4b34f207ffc0c333970ec4f3731f8ad9"
-  }
-}
+{"version":4,"routes":{"/course/al-ict":{},"/course/react-js":{},"/course/next-js":{},"/course/dotnet-csharp":{},"/course/node-js":{}},"dynamicRoutes":{"/course/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/course/[id]","routeRegex":"^\\/course\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"35666fc6a59dda15bba73e3526f9589b","previewModeSigningKey":"1b0549c79e9b75789ae91508e3ba2d213e5d3a29af9af0c5975be2448148c4a2","previewModeEncryptionKey":"ee9eb7c695296594e14615f8ec4488bfc067ac4a186d31bd3a11294484650559"}}
