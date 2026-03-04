@@ -5,11 +5,8 @@ export default function AuthLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main >
-        <section className="flex w-full items-center justify-center py-6">
-          {children}
-        </section>
-   
+    <main>
+      <section className="w-full">{children}</section>
     </main>
   );
 }

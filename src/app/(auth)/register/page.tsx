@@ -49,7 +49,7 @@ const RegisterPageContent = () => {
   });
 
   return (
-    <div className="flex w-md flex-col items-start justify-center rounded-b-xl border border-black/10">
+    <div className="mx-auto flex w-md flex-col items-start justify-center rounded-b-xl border border-black/10">
       <div className="h-1 w-full rounded-xl bg-black/10">
         <div
           className="h-1 rounded-xl bg-primary transition-all duration-300"
