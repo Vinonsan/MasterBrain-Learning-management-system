@@ -317,7 +317,7 @@ const Course = ()=>{
                                                 variant: "primary",
                                                 size: "sm",
                                                 className: "rounded-full",
-                                                children: "Enroll Now"
+                                                children: "View Details"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(site)/course/_utils/components/Course.tsx",
                                                 lineNumber: 101,

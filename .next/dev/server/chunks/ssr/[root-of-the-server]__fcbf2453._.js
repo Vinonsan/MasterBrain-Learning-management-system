@@ -431,7 +431,7 @@ function PopularCourses() {
                                                 variant: "primary",
                                                 size: "sm",
                                                 className: "rounded-full",
-                                                children: "Enroll Now"
+                                                children: "View Details"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(site)/home/popularcourses.tsx",
                                                 lineNumber: 102,
