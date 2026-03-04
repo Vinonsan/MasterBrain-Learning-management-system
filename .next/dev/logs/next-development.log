@@ -37,3 +37,1555 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
+[00:22:30.238] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/course/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="ta">
+                          <body
+                            className="geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:34:08.832] Server  LOG      ✓ Compiled in 373ms
+[00:36:51.473] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="ta">
+                          <body
+                            className="geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:40:23.368] Server  LOG      ✓ Compiled in 347ms
+[00:40:25.600] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/register/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="ta">
+                          <body
+                            className="geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:40:31.591] Browser ERROR   ./src/app/(auth)/layout.tsx:19:1
+Parsing ecmascript source code failed
+  17 |     </main>
+  18 |   );
+> 19 | }
+     | ^
+  20 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:41:34.601] Browser ERROR   ./src/app/(auth)/layout.tsx:10:28
+Parsing ecmascript source code failed
+   8 |   return (
+   9 |     <main >
+> 10 |         <section className="flex w-full items-center justify-center >
+     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 11 |           {children}
+     | ^^^^^^^^^^^^^^^^^^^^
+> 12 |         </section>
+     | ^^^^^^^^^^^^^^^^^^^^
+> 13 |    
+     | ^^^^^^^^^^^^^^^^^^^^
+> 14 |     </main>
+     | ^^^^^^^^^^^^^^^^^^^^
+> 15 |   );
+     | ^^^^^^^^^^^^^^^^^^^^
+> 16 | }
+     | ^^^^^^^^^^^^^^^^^^^^
+> 17 |
+     | ^
+
+Unterminated string constant
+[00:45:33.590] Browser ERROR   ./src/app/(auth)/login/page.tsx:3:7
+Parsing ecmascript source code failed
+  1 | import Link from "next/link";
+  2 |
+> 3 | const LoginPage() {
+    |       ^^^^^^^^^
+  4 |   return (
+  5 |     <div>
+  6 |       <h2 className="text-2xl font-bold text-dark">Login</h2>
+
+'const' declarations must be initialized
+[00:45:33.590] Browser ERROR   ./src/app/(auth)/login/page.tsx:3:16
+Parsing ecmascript source code failed
+  1 | import Link from "next/link";
+  2 |
+> 3 | const LoginPage() {
+    |                ^
+  4 |   return (
+  5 |     <div>
+  6 |       <h2 className="text-2xl font-bold text-dark">Login</h2>
+
+Expected a semicolon
+[00:45:33.590] Browser ERROR   ./src/app/(auth)/login/page.tsx:4:3
+Parsing ecmascript source code failed
+   2 |
+   3 | const LoginPage() {
+>  4 |   return (
+     |   ^^^^^^^^
+>  5 |     <div>
+     | ^^^^^^^^^
+>  6 |       <h2 className="text-2xl font-bold text-dark">Login</h2>
+     | ^^^^^^^^^
+>  7 |       <p className="mt-2 text-sm text-zinc-600">
+     | ^^^^^^^^^
+>  8 |         Enter your email and password to continue.
+     | ^^^^^^^^^
+>  9 |       </p>
+     | ^^^^^^^^^
+> 10 |
+     | ^^^^^^^^^
+> 11 |       <form className="mt-6 space-y-4">
+     | ^^^^^^^^^
+> 12 |         <div>
+     | ^^^^^^^^^
+> 13 |           <label htmlFor="email" className="mb-1 block text-sm font-medium text-zinc-700">
+     | ^^^^^^^^^
+> 14 |             Email
+     | ^^^^^^^^^
+> 15 |           </label>
+     | ^^^^^^^^^
+> 16 |           <input
+     | ^^^^^^^^^
+> 17 |             id="email"
+     | ^^^^^^^^^
+> 18 |             type="email"
+     | ^^^^^^^^^
+> 19 |             placeholder="you@example.com"
+     | ^^^^^^^^^
+> 20 |             className="w-full rounded-lg border border-zinc-300 px-3 py-2.5 text-sm outline-none transition focus:border-primary"
+     | ^^^^^^^^^
+> 21 |           />
+     | ^^^^^^^^^
+> 22 |         </div>
+     | ^^^^^^^^^
+> 23 |
+     | ^^^^^^^^^
+> 24 |         <div>
+     | ^^^^^^^^^
+> 25 |           <label htmlFor="password" className="mb-1 block text-sm font-medium text-zinc-700">
+     | ^^^^^^^^^
+> 26 |             Password
+     | ^^^^^^^^^
+> 27 |           </label>
+     | ^^^^^^^^^
+> 28 |           <input
+     | ^^^^^^^^^
+> 29 |             id="password"
+     | ^^^^^^^^^
+> 30 |             type="password"
+     | ^^^^^^^^^
+> 31 |             placeholder="********"
+     | ^^^^^^^^^
+> 32 |             className="w-full rounded-lg border border-zinc-300 px-3 py-2.5 text-sm outline-none transition focus:border-primary"
+     | ^^^^^^^^^
+> 33 |           />
+     | ^^^^^^^^^
+> 34 |         </div>
+     | ^^^^^^^^^
+> 35 |
+     | ^^^^^^^^^
+> 36 |         <button
+     | ^^^^^^^^^
+> 37 |           type="submit"
+     | ^^^^^^^^^
+> 38 |           className="w-full rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-white transition hover:opacity-90"
+     | ^^^^^^^^^
+> 39 |         >
+     | ^^^^^^^^^
+> 40 |           Sign In
+     | ^^^^^^^^^
+> 41 |         </button>
+     | ^^^^^^^^^
+> 42 |       </form>
+     | ^^^^^^^^^
+> 43 |
+     | ^^^^^^^^^
+> 44 |       <p className="mt-5 text-sm text-zinc-600">
+     | ^^^^^^^^^
+> 45 |         New here?{" "}
+     | ^^^^^^^^^
+> 46 |         <Link href="/register" className="font-semibold text-primary hover:underline">
+     | ^^^^^^^^^
+> 47 |           Create an account
+     | ^^^^^^^^^
+> 48 |         </Link>
+     | ^^^^^^^^^
+> 49 |       </p>
+     | ^^^^^^^^^
+> 50 |     </div>
+     | ^^^^^^^^^
+> 51 |   );
+     | ^^^^^
+  52 | }
+  53 |
+
+Return statement is not allowed here
+[00:45:36.694] Server  LOG      ✓ Compiled in 148ms
+[00:45:41.949] Server  LOG      ✓ Compiled in 136ms
+[00:48:11.694] Server  LOG      ✓ Compiled in 236ms
+[00:51:12.047] Server  LOG      ✓ Compiled in 179ms
+[00:51:29.405] Server  LOG      ✓ Compiled in 167ms
+[00:51:35.951] Server  LOG      ✓ Compiled in 153ms
+[00:56:09.539] Server  LOG      ✓ Compiled in 183ms
+[00:56:11.780] Server  LOG      ✓ Compiled in 192ms
+[00:56:18.469] Server  LOG      ✓ Compiled in 186ms
+[00:56:22.769] Server  LOG      ✓ Compiled in 195ms
+[00:56:30.769] Server  LOG      ✓ Compiled in 162ms
+[00:56:54.328] Server  LOG      ✓ Compiled in 184ms
+[00:57:03.627] Server  LOG      ✓ Compiled in 162ms
+[00:57:10.853] Server  LOG      ✓ Compiled in 157ms
+[00:57:19.887] Server  LOG      ✓ Compiled in 129ms
+[00:57:22.535] Server  LOG      ✓ Compiled in 152ms
+[00:58:08.477] Server  LOG      ✓ Compiled in 162ms
+[00:58:10.118] Server  LOG      ✓ Compiled in 154ms
+[00:58:14.402] Server  LOG      ✓ Compiled in 149ms
+[00:58:17.836] Server  LOG      ✓ Compiled in 154ms
+[00:58:24.346] Server  LOG      ✓ Compiled in 154ms
+[00:58:25.800] Server  LOG      ✓ Compiled in 135ms
+[00:58:31.598] Server  LOG      ✓ Compiled in 175ms
+[00:58:33.130] Server  LOG      ✓ Compiled in 160ms
+[00:58:39.705] Server  LOG      ✓ Compiled in 164ms
+[00:58:42.395] Server  LOG      ✓ Compiled in 184ms
+[00:58:47.196] Server  LOG      ✓ Compiled in 247ms
+[00:58:49.647] Server  LOG      ✓ Compiled in 193ms
+[00:58:51.734] Server  LOG      ✓ Compiled in 147ms
+[01:01:12.798] Server  LOG      ✓ Compiled in 177ms
+[01:02:38.253] Server  LOG      ✓ Compiled in 182ms
+[01:02:42.338] Server  LOG      ✓ Compiled in 179ms
+[01:02:42.596] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. classNae classnae
+[01:02:43.928] Server  LOG      ✓ Compiled in 156ms
+[01:03:02.826] Server  LOG      ✓ Compiled in 169ms
+[01:03:06.242] Server  LOG      ✓ Compiled in 155ms
+[01:03:22.634] Server  LOG      ✓ Compiled in 184ms
+[01:03:24.063] Server  LOG      ✓ Compiled in 150ms
+[01:04:34.830] Server  LOG      ✓ Compiled in 177ms
+[01:05:13.105] Server  LOG      ✓ Compiled in 162ms
+[01:09:24.930] Server  LOG      ✓ Compiled in 154ms
+[01:26:14.497] Server  LOG      ✓ Compiled in 93ms
+[01:26:21.798] Server  LOG      ✓ Compiled in 69ms
+[01:27:18.395] Server  LOG      ✓ Compiled in 64ms
+[01:27:18.597] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
+[01:27:31.941] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:27:33.592] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="ta">
+                          <body
+                            className="geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[01:27:44.954] Server  LOG      ✓ Compiled in 84ms
+[01:27:45.653] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[01:27:45.653] Browser ERROR   Image is missing required "src" property: <img>
+[01:27:45.653] Browser WARN    Image with src "" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:27:48.983] Server  LOG      ✓ Compiled in 61ms
+[01:29:04.200] Server  LOG      ✓ Compiled in 89ms
+[01:29:04.593] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[01:29:04.593] Browser ERROR   Image is missing required "src" property: <img>
+[01:29:07.174] Server  LOG      ✓ Compiled in 120ms
+[01:29:10.107] Server  LOG      ✓ Compiled in 91ms
+[01:29:11.712] Server  LOG      ✓ Compiled in 102ms
+[01:29:39.980] Server  LOG      ✓ Compiled in 90ms
+[01:30:02.288] Server  LOG      ✓ Compiled in 103ms
+[01:30:05.289] Server  LOG      ✓ Compiled in 119ms
+[01:30:23.934] Server  LOG      ✓ Compiled in 71ms
+[01:31:45.806] Server  LOG      ✓ Compiled in 162ms
+[01:32:07.729] Server  LOG      ✓ Compiled in 83ms
+[01:32:26.742] Server  LOG      ✓ Compiled in 74ms
+[01:32:38.787] Server  LOG      ✓ Compiled in 110ms
+[01:38:00.092] Server  LOG      ✓ Compiled in 104ms
+[01:44:11.686] Server  LOG      ✓ Compiled in 273ms
+[01:46:29.153] Server  LOG      ✓ Compiled in 158ms
+[01:47:16.232] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/register/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="ta">
+                          <body
+                            className="geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[01:47:58.458] Server  LOG      ✓ Compiled in 133ms
+[01:52:25.064] Server  LOG      ✓ Compiled in 121ms
+[01:52:35.032] Server  LOG      ✓ Compiled in 83ms
+[01:52:36.298] Server  LOG      ✓ Compiled in 98ms
+[01:56:58.229] Server  LOG      ✓ Compiled in 153ms
+[01:58:34.911] Server  LOG      ✓ Compiled in 78ms
+[01:59:11.937] Server  LOG      ✓ Compiled in 124ms
+[01:59:12.051] Browser ERROR   ./src/app/(auth)/register/page.tsx:31:197
+Parsing ecmascript source code failed
+  29 |
+  30 |   return (
+> 31 |     <div className="flex flex-col w-md items-start justify-center rounded-2xl border border-black/10 p-5      <div className="flex flex-col w-full items-center justify-center text-center space-y-1">
+     |                                                                                                                                                                                                     ^^
+  32 |         <div className="flex items-center justify-center w-14 h-14 rounded-full ">
+  33 |           <Image
+  34 |             src="/siteicon.png"
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+[01:59:14.499] Browser ERROR   ./src/app/(auth)/register/page.tsx:32:93
+Parsing ecmascript source code failed
+  30 |   return (
+  31 |     <div className="flex flex-col w-md items-start justify-center rounded-2xl border border-black/10 p-5 
+> 32 |       <div className="flex flex-col w-full items-center justify-center text-center space-y-1">
+     |                                                                                             ^^
+  33 |         <div className="flex items-center justify-center w-14 h-14 rounded-full ">
+  34 |           <Image
+  35 |             src="/siteicon.png"
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+[01:59:18.081] Server  LOG      ✓ Compiled in 75ms
+[01:59:22.714] Server  LOG      ✓ Compiled in 66ms
+[01:59:23.546] Server  LOG      ✓ Compiled in 69ms
+[01:59:30.887] Server  LOG      ✓ Compiled in 75ms
+[01:59:53.755] Server  LOG      ✓ Compiled in 85ms
+[02:00:04.649] Server  LOG      ✓ Compiled in 89ms
+[02:00:08.255] Server  LOG      ✓ Compiled in 89ms
+[02:00:19.028] Server  LOG      ✓ Compiled in 61ms
+[02:00:27.450] Server  LOG      ✓ Compiled in 148ms
+[02:00:31.958] Server  LOG      ✓ Compiled in 77ms
+[02:00:34.743] Server  LOG      ✓ Compiled in 82ms
+[02:00:36.686] Server  LOG      ✓ Compiled in 95ms
+[02:01:09.192] Server  LOG      ✓ Compiled in 98ms
+[02:01:58.880] Server  LOG      ✓ Compiled in 84ms
+[02:02:05.587] Server  LOG      ✓ Compiled in 87ms
+[02:02:25.019] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
+  6 | import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
+  7 | import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:02:25.022] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
+  6 | import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
+  7 | import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:02:25.026] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
+  6 | import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
+  7 | import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:02:25.029] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
+  6 | import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
+  7 | import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:02:25.033] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
+  6 | import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
+  7 | import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:02:25.036] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
+  6 | import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
+  7 | import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:02:25.040] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
+  6 | import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
+  7 | import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:02:25.042] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
+  6 | import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
+  7 | import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:02:25.047] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
+  6 | import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
+  7 | import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:02:25.052] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
+  6 | import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
+  7 | import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:02:25.054] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
+  6 | import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
+  7 | import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:02:25.056] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
+  6 | import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
+  7 | import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:02:25.059] Server  LOG      ✓ Compiled in 139ms
+[02:02:25.173] Browser ERROR   ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
+  6 | import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
+  7 | import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[02:03:34.992] Browser ERROR   uncaughtError: ReferenceError: StepFlowBar is not defined
+[02:03:47.910] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:48.360] Server  LOG      ✓ Compiled in 94ms
+[02:03:53.256] Server  LOG      ✓ Compiled in 98ms
+[02:03:56.653] Server  LOG      ✓ Compiled in 80ms
+[02:04:13.350] Server  LOG      ✓ Compiled in 132ms
+[02:04:22.559] Server  LOG      ✓ Compiled in 103ms
+[02:04:29.058] Server  LOG      ✓ Compiled in 89ms
+[02:04:31.843] Server  LOG      ✓ Compiled in 62ms
+[02:04:33.338] Server  LOG      ✓ Compiled in 92ms
+[02:05:31.770] Server  LOG      ✓ Compiled in 131ms
+[02:05:33.040] Server  LOG      ✓ Compiled in 82ms
+[02:05:35.621] Server  LOG      ✓ Compiled in 99ms
+[02:05:50.249] Server  LOG      ✓ Compiled in 65ms
+[02:06:16.110] Server  LOG      ✓ Compiled in 125ms
+[02:06:28.624] Server  LOG      ✓ Compiled in 86ms
+[02:07:13.755] Server  LOG      ✓ Compiled in 84ms
+[02:07:17.636] Server  LOG      ✓ Compiled in 80ms
+[02:07:22.669] Server  LOG      ✓ Compiled in 81ms
+[02:07:31.536] Server  LOG      ✓ Compiled in 84ms
+[02:07:50.877] Server  LOG      ✓ Compiled in 79ms
+[02:08:01.689] Server  LOG      ✓ Compiled in 87ms
+[02:08:02.857] Server  LOG      ✓ Compiled in 74ms
+[02:08:22.815] Server  LOG      ✓ Compiled in 81ms
+[02:08:29.195] Server  LOG      ✓ Compiled in 81ms
+[02:08:38.659] Server  LOG      ✓ Compiled in 92ms
+[02:08:50.457] Server  LOG      ✓ Compiled in 107ms
+[02:09:01.368] Server  LOG      ✓ Compiled in 82ms
+[02:09:13.765] Server  LOG      ✓ Compiled in 97ms
+[02:09:17.284] Server  LOG      ✓ Compiled in 105ms
+[02:09:18.646] Server  LOG      ✓ Compiled in 77ms
+[02:09:33.325] Server  LOG      ✓ Compiled in 87ms
+[02:09:37.776] Server  LOG      ✓ Compiled in 124ms
+[02:09:39.706] Server  LOG      ✓ Compiled in 99ms
+[02:10:06.098] Server  LOG      ✓ Compiled in 82ms
+[02:10:18.126] Server  LOG      ✓ Compiled in 92ms
+[02:10:30.939] Server  LOG      ✓ Compiled in 83ms
+[02:18:37.079] Server  LOG      ✓ Compiled in 1782ms
+[02:18:57.251] Server  LOG      ✓ Compiled in 101ms
+[02:18:57.587] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'firstName')
+[02:19:49.076] Server  LOG      ✓ Compiled in 177ms
+[02:19:49.093] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:19:49.687] Server  ERROR   C:\Users\admin\Desktop\mb3\MasterBrain-Learning-management-system\.next\dev\server\chunks\ssr\src_c7f12e68._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:19:49.693] Server  ERROR    ⨯ TypeError: Cannot destructure property 'register' of '{imported module ./nodemodules/.pnpm/react-hook-form@7.71.2react@19.2.0/nodemodules/react-hook-form/dist/index.esm.mjs}.useFormContext(...)' as it is null.
+[02:19:49.749] Browser ERROR   uncaughtError: TypeError: Cannot destructure property 'register' of '(0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$hook$2d$form$40$7$2e$71$2e$2_react$40$19$2e$2$2e$0$2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.useFormContext)(...)' as it is null.
+[02:19:51.599] Browser ERROR   uncaughtError: TypeError: Cannot destructure property 'register' of '(0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$hook$2d$form$40$7$2e$71$2e$2_react$40$19$2e$2$2e$0$2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.useFormContext)(...)' as it is null.
+[02:20:12.700] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:20:12.716] Server  LOG      ✓ Compiled in 91ms
+[02:20:13.153] Server  ERROR   C:\Users\admin\Desktop\mb3\MasterBrain-Learning-management-system\.next\dev\server\chunks\ssr\src_c7f12e68._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:20:13.155] Server  ERROR    ⨯ TypeError: Cannot destructure property 'register' of '{imported module ./nodemodules/.pnpm/react-hook-form@7.71.2react@19.2.0/nodemodules/react-hook-form/dist/index.esm.mjs}.useFormContext(...)' as it is null.
+[02:20:14.587] Browser ERROR   uncaughtError: TypeError: Cannot destructure property 'register' of '(0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$hook$2d$form$40$7$2e$71$2e$2_react$40$19$2e$2$2e$0$2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.useFormContext)(...)' as it is null.
+[02:20:29.034] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:20:29.613] Server  ERROR   C:\Users\admin\Desktop\mb3\MasterBrain-Learning-management-system\.next\dev\server\chunks\ssr\src_f41f4aa0._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:20:29.614] Server  ERROR    ⨯ TypeError: Cannot destructure property 'register' of '{imported module ./nodemodules/.pnpm/react-hook-form@7.71.2react@19.2.0/nodemodules/react-hook-form/dist/index.esm.mjs}.useFormContext(...)' as it is null.
+[02:20:29.677] Server  LOG      ✓ Compiled in 102ms
+[02:20:31.594] Browser ERROR   uncaughtError: TypeError: Cannot destructure property 'register' of '(0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$react$2d$hook$2d$form$40$7$2e$71$2e$2_react$40$19$2e$2$2e$0$2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.useFormContext)(...)' as it is null.
+[02:21:03.596] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/register/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="ta">
+                          <body
+                            className="geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[02:21:28.076] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:31.106] Server  LOG      ○ Compiling /_error ...
+[02:21:35.540] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:36.552] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:36.684] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:36.849] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:36.976] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:37.113] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:37.315] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:37.452] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:37.610] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:41.669] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:47.234] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:47.503] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:47.717] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:47.938] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:48.176] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:48.488] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:48.730] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:49.084] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:49.273] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:49.485] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:49.991] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:50.292] Server  ERROR    ⨯ ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:51.404] Browser ERROR   uncaughtError: Error: ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:21:51.592] Browser ERROR   ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[02:21:52.597] Browser ERROR   ./src/app/(auth)/register/page.tsx:4:1
+Module not found: Can't resolve '@/src/app/(auth)/register/_components/StepFlowBar'
+  2 |
+  3 | import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
+> 4 | import StepFlowBar from "@/src/app/(auth)/register/_components/StepFlowBar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import {
+  6 |   RegisterFormValues,
+  7 |   registerDefaultValues,
+
+Import map: aliased to relative './src/app/(auth)/register/_components/StepFlowBar' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[02:22:16.658] Server  ERROR   C:\Users\admin\Desktop\mb3\MasterBrain-Learning-management-system\.next\dev\server\chunks\ssr\src_3bc2a0a2._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[02:22:16.659] Server  ERROR    ⨯ ReferenceError: StepFlowBar is not defined
+[02:22:17.061] Browser ERROR   uncaughtError: ReferenceError: StepFlowBar is not defined
+[02:22:26.933] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:22:27.417] Server  LOG      ✓ Compiled in 74ms
+[02:22:42.309] Server  LOG      ✓ Compiled in 82ms
+[02:22:44.738] Server  LOG      ✓ Compiled in 80ms
+[02:24:36.708] Server  LOG      ✓ Compiled in 421ms
+[02:25:25.337] Server  LOG      ✓ Compiled in 100ms
+[02:25:40.915] Server  LOG      ✓ Compiled in 89ms
+[02:26:22.357] Server  LOG      ✓ Compiled in 87ms
+[02:26:52.671] Server  LOG      ✓ Compiled in 110ms
+[02:27:13.424] Server  LOG      ✓ Compiled in 84ms
+[02:27:30.041] Server  LOG      ✓ Compiled in 81ms
+[02:30:29.653] Server  LOG      ✓ Compiled in 115ms
+[02:30:40.714] Server  LOG      ✓ Compiled in 109ms
+[02:30:51.371] Server  LOG      ✓ Compiled in 93ms
+[02:33:37.757] Server  LOG      ✓ Compiled in 1744ms
+[02:34:26.280] Server  LOG      ✓ Compiled in 898ms
+[02:34:40.586] Server  LOG      ✓ Compiled in 81ms
+[02:34:47.076] Server  LOG      ✓ Compiled in 89ms
+[02:34:54.260] Server  LOG      ✓ Compiled in 97ms
