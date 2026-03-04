@@ -3,19 +3,23 @@
 import Button from "@/src/components/base/Button";
 import Input from "@/src/components/base/Input";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { FormEvent, useState } from "react";
 
 const LoginPage = () => {
+    const router = useRouter();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
     const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        if (!email || !password) return;
+        router.push("/student/dashboard");
     };
 
     return (
-        <div className="flex flex-col w-md items-start justify-center rounded-2xl border border-black/10 p-5 ">
+        <div className="mx-auto flex w-md flex-col items-start justify-center rounded-2xl border border-black/10 p-5 ">
 
             <div className="flex flex-col w-full items-center justify-center text-center space-y-1">
 
