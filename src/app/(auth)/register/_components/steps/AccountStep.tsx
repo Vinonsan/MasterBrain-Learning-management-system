@@ -30,6 +30,7 @@ const AccountStep = () => {
           setValue("username", String(value), { shouldDirty: true, shouldValidate: true })
         }
         error={errors.username?.message}
+        required
       />
 
       <Input
@@ -42,6 +43,7 @@ const AccountStep = () => {
           setValue("password", String(value), { shouldDirty: true, shouldValidate: true })
         }
         error={errors.password?.message}
+        required
       />
     </div>
   );

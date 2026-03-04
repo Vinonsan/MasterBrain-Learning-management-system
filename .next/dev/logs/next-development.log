@@ -1589,3 +1589,54 @@ https://nextjs.org/docs/messages/module-not-found
 [02:34:40.586] Server  LOG      ✓ Compiled in 81ms
 [02:34:47.076] Server  LOG      ✓ Compiled in 89ms
 [02:34:54.260] Server  LOG      ✓ Compiled in 97ms
+[03:15:05.088] Browser LOG     register data {"city":"kandy","dateOfBirth":"2026-03-02","district":"jaffna","email":"vinonsan.99@gmail.com","firstName":"Gloed","gender":"female","lane1":"test","lastName":"Vinonsan","nic":"199909710273","password":"Axispay.com","phoneNumber":"0754476969","province":"north-western","username":"admin@axispay.com"}
+[03:15:30.631] Browser LOG     register data {"city":"kandy","dateOfBirth":"2026-03-02","district":"jaffna","email":"vinonsan.99@gmail.com","firstName":"Gloed","gender":"female","lane1":"test","lastName":"Vinonsan","nic":"199909710273","password":"Axispay.com","phoneNumber":"0754476969","province":"north-western","username":"admin@axispay.com"}
+[03:15:48.891] Browser LOG     register data {"city":"kandy","dateOfBirth":"2026-03-02","district":"jaffna","email":"vinonsan.99@gmail.com","firstName":"Gloed","gender":"female","lane1":"test","lastName":"Vinonsan","nic":"199909710273","password":"Axispay.com","phoneNumber":"0754476969","province":"north-western","username":"admin@axispay.com"}
+[03:15:51.740] Browser LOG     register data {"city":"kandy","dateOfBirth":"2026-03-02","district":"jaffna","email":"vinonsan.99@gmail.com","firstName":"Gloed","gender":"female","lane1":"test","lastName":"Vinonsan","nic":"199909710273","password":"Axispay.com","phoneNumber":"0754476969","province":"north-western","username":"admin@axispay.com"}
+[03:16:19.946] Browser LOG     register data {"city":"kandy","dateOfBirth":"2026-03-02","district":"jaffna","email":"vinonsan.99@gmail.com","firstName":"Gloed","gender":"female","lane1":"test","lastName":"Vinonsan","nic":"199909710273","password":"Axispay.com","phoneNumber":"0754476969","province":"north-western","username":"admin@axispay.com"}
+[03:17:00.709] Browser LOG     register data {"city":"kandy","dateOfBirth":"2026-03-02","district":"jaffna","email":"vinonsan.99@gmail.com","firstName":"Gloed","gender":"female","lane1":"test","lastName":"Vinonsan","nic":"199909710273","password":"Axispay.com","phoneNumber":"0754476969","province":"north-western","username":"admin@axispay.com"}
+[03:17:54.448] Browser LOG     register data {"city":"kandy","dateOfBirth":"2026-03-02","district":"jaffna","email":"vinonsan.99@gmail.com","firstName":"Gloed","gender":"female","lane1":"test","lastName":"Vinonsan","nic":"199909710273","password":"Axispay.com","phoneNumber":"0754476969","province":"north-western","username":"admin@axispay.com"}
+[03:20:11.985] Browser LOG     register data {"city":"kandy","dateOfBirth":"2026-03-02","district":"jaffna","email":"vinonsan.99@gmail.com","firstName":"Gloed","gender":"female","lane1":"test","lastName":"Vinonsan","nic":"199909710273","password":"Axispay.com","phoneNumber":"0754476969","province":"north-western","username":"admin@axispay.com"}
+[03:24:59.007] Browser LOG     register data {"city":"kandy","dateOfBirth":"2026-03-02","district":"jaffna","email":"vinonsan.99@gmail.com","firstName":"Gloed","gender":"female","lane1":"test","lastName":"Vinonsan","nic":"199909710273","password":"Axispay.com","phoneNumber":"0754476969","province":"north-western","username":"admin@axispay.com"}
+[03:26:50.644] Server  LOG      ✓ Compiled in 102ms
+[03:26:54.608] Server  LOG      ✓ Compiled in 665ms
+[03:27:04.574] Server  LOG      ✓ Compiled in 586ms
+[03:27:08.983] Server  LOG      ✓ Compiled in 701ms
+[03:27:11.655] Server  LOG      ✓ Compiled in 462ms
+[03:27:15.055] Server  LOG      ✓ Compiled in 397ms
+[03:27:18.301] Server  LOG      ✓ Compiled in 570ms
+[03:27:21.101] Server  LOG      ✓ Compiled in 476ms
+[03:27:28.005] Server  LOG      ✓ Compiled in 223ms
+[03:27:31.227] Server  LOG      ✓ Compiled in 536ms
+[03:27:35.713] Server  LOG      ✓ Compiled in 1491ms
+[03:27:37.580] Server  LOG      ✓ Compiled in 1626ms
+[03:27:40.638] Server  LOG      ✓ Compiled in 495ms
+[03:27:43.522] Server  LOG      ✓ Compiled in 570ms
+[03:27:44.613] Browser ERROR   ./src/app/(auth)/register/_components/steps/AddressStep.tsx:61:1
+Parsing ecmascript source code failed
+  59 |         error={errors.district?.message}
+  60 |         
+> 61 | ``
+     | ^^
+  62 |       />
+  63 |
+  64 |       <Select
+
+Expected '</', got ''
+
+Import traces:
+  Client Component Browser:
+    ./src/app/(auth)/register/_components/steps/AddressStep.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Client Component Browser]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/(auth)/register/_components/steps/AddressStep.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Client Component SSR]
+    ./src/app/(auth)/register/page.tsx [Server Component]
+[03:27:45.920] Server  LOG      ✓ Compiled in 741ms
+[03:27:54.890] Server  LOG      ✓ Compiled in 404ms
+[03:27:57.609] Server  LOG      ✓ Compiled in 466ms
+[03:28:11.316] Server  LOG      ✓ Compiled in 102ms
+[03:28:14.383] Server  LOG      ✓ Compiled in 241ms
+[03:28:17.322] Server  LOG      ✓ Compiled in 229ms

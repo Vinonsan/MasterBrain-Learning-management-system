@@ -37,6 +37,7 @@ const PersonalInfoStep = () => {
           setValue("firstName", String(value), { shouldDirty: true, shouldValidate: true })
         }
         error={errors.firstName?.message}
+        required
       />
 
       <Input
@@ -49,6 +50,7 @@ const PersonalInfoStep = () => {
           setValue("lastName", String(value), { shouldDirty: true, shouldValidate: true })
         }
         error={errors.lastName?.message}
+        required
       />
 
       <Input
@@ -61,6 +63,7 @@ const PersonalInfoStep = () => {
           setValue("phoneNumber", String(value), { shouldDirty: true, shouldValidate: true })
         }
         error={errors.phoneNumber?.message}
+        required
       />
 
       <Input
@@ -73,6 +76,7 @@ const PersonalInfoStep = () => {
           setValue("email", String(value), { shouldDirty: true, shouldValidate: true })
         }
         error={errors.email?.message}
+        required
       />
 
       <Input
@@ -83,6 +87,7 @@ const PersonalInfoStep = () => {
         value={watch("nic") || ""}
         onChange={(value) => setValue("nic", String(value), { shouldDirty: true, shouldValidate: true })}
         error={errors.nic?.message}
+        required
       />
 
       <Input
@@ -94,6 +99,7 @@ const PersonalInfoStep = () => {
           setValue("dateOfBirth", String(value), { shouldDirty: true, shouldValidate: true })
         }
         error={errors.dateOfBirth?.message}
+        required
       />
 
       <Select
@@ -107,6 +113,7 @@ const PersonalInfoStep = () => {
           setValue("gender", String(value || ""), { shouldDirty: true, shouldValidate: true })
         }
         error={errors.gender?.message}
+        required
       />
     </div>
   );

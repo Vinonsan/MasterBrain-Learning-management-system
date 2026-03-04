@@ -32,6 +32,7 @@ const AddressStep = () => {
         value={watch("lane1") || ""}
         onChange={(value) => setValue("lane1", String(value), { shouldDirty: true, shouldValidate: true })}
         error={errors.lane1?.message}
+        required
       />
 
       <Select
@@ -43,6 +44,7 @@ const AddressStep = () => {
         value={watch("city") || ""}
         onChange={(value) => setValue("city", String(value || ""), { shouldDirty: true, shouldValidate: true })}
         error={errors.city?.message}
+        required
       />
 
       <Input
@@ -55,6 +57,7 @@ const AddressStep = () => {
           setValue("district", String(value), { shouldDirty: true, shouldValidate: true })
         }
         error={errors.district?.message}
+        required
       />
 
       <Select
@@ -68,6 +71,7 @@ const AddressStep = () => {
           setValue("province", String(value || ""), { shouldDirty: true, shouldValidate: true })
         }
         error={errors.province?.message}
+        required
       />
     </div>
   );
