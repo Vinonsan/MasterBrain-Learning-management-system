@@ -23,3 +23,4 @@ export const tasks = [
   { title: "Quiz 1 - React Basics", due: "Tomorrow" },
 ];
 
+export const name = "Arun Kumar";
