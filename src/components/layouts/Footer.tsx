@@ -15,6 +15,7 @@ const quickLinks = [
   { name: "Courses", href: "/course" },
   { name: "About Us", href: "/about" },
   { name: "Contact", href: "/contact" },
+  { name: "Resources", href: "/resources" },
 ];
 
 const courses = [
@@ -60,13 +61,10 @@ export default function Footer() {
 
   return (
     <footer className="relative bg-black text-gray-300 overflow-hidden">
-
       <div className="absolute inset-0 opacity-5 bg-[radial-gradient(circle_at_2px_2px,white_1px,transparent_0)] w-16" />
 
       <div className="relative w-full mx-auto p-10">
-
         <div className="flex flex-col lg:flex-row gap-12 mb-16">
-
           <div className="flex-2">
             <h3 className="text-3xl font-bold text-white mb-4">
               Master<span className="text-primary">Brain</span>
@@ -93,7 +91,6 @@ export default function Footer() {
               ))}
             </div>
           </div>
-
 
           <div className="flex-1 flex flex-col sm:flex-row gap-10">
             <FooterLinks title="Quick Links" links={quickLinks} />
@@ -129,9 +126,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
-          <p className="text-gray-400 text-sm">
-            © {year} MasterBrain. All rights reserved.
-          </p>
+          <p className="text-gray-400 text-sm">(c) {year} MasterBrain. All rights reserved.</p>
 
           <div className="flex flex-wrap gap-6">
             {legal.map((link) => (
@@ -150,7 +145,6 @@ export default function Footer() {
     </footer>
   );
 }
-
 
 function FooterHeading({ title }: { title: string }) {
   return (
@@ -188,3 +182,4 @@ function FooterLinks({
     </div>
   );
 }
+

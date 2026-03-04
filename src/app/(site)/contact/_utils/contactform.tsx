@@ -12,8 +12,9 @@ import Textarea from "@/src/components/base/TextArea";
 
 import { COURSE_OPTIONS } from "../_utils/components/constants/courseOptions";
 
+const CONTACT_EMAIL = "support@masterbrain.site";
+
 const ContactForm = () => {
-  const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
     fullName: "",
     email: "",
@@ -22,47 +23,39 @@ const ContactForm = () => {
     message: "",
   });
 
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setLoading(true);
 
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(form),
-      });
+    const subject = `Contact Form: ${form.fullName || "Website Visitor"}`;
+    const body = [
+      `Name: ${form.fullName}`,
+      `Email: ${form.email}`,
+      `Phone / WhatsApp: ${form.phone || "Not provided"}`,
+      `Interested Course: ${form.course || "Not selected"}`,
+      "",
+      "Message:",
+      form.message,
+    ].join("\n");
 
-      const result = await response.json();
+    const mailtoUrl = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-      if (!response.ok) {
-        throw new Error(result.error || "Something went wrong");
-      }
+    window.location.href = mailtoUrl;
+    toast.success("Opening your email app...");
 
-      toast.success("Message sent successfully!");
-
-      setForm({
-        fullName: "",
-        email: "",
-        phone: "",
-        course: "",
-        message: "",
-      });
-    } catch (error) {
-      toast.error("Failed to send message. Please try again.");
-      console.error(error);
-    } finally {
-      setLoading(false);
-    }
+    setForm({
+      fullName: "",
+      email: "",
+      phone: "",
+      course: "",
+      message: "",
+    });
   }
 
   return (
     <section className="py-8">
       <SectionHeading
         title="Send a message"
-        subtitle="Fill out the form below and our team will get back to you shortly. We’re happy to guide you in choosing the right course."
+        subtitle="Fill out the form below and your email app will open with the message pre-filled."
         align="center"
       />
 
@@ -128,8 +121,8 @@ const ContactForm = () => {
           />
 
           <div className="text-center">
-            <Button type="submit" variant="rounded" size="lg" disabled={loading}>
-              {loading ? "Sending..." : "Send Message"}
+            <Button type="submit" variant="rounded" size="lg">
+              Send Message
               <Send className="w-5 h-5" />
             </Button>
           </div>

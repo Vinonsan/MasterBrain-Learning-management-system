@@ -132,7 +132,7 @@ export default function Page() {
       />
 
       <section className="px-8">
-<Course />
+        <Course />
       </section>
     </main>
   );
