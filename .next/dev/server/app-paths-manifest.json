@@ -1,4 +1,6 @@
 {
+  "/(auth)/login/page": "app/(auth)/login/page.js",
+  "/(auth)/register/page": "app/(auth)/register/page.js",
   "/(site)/course/[id]/page": "app/(site)/course/[id]/page.js",
   "/(site)/course/page": "app/(site)/course/page.js",
   "/(site)/page": "app/(site)/page.js",
