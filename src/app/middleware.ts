@@ -10,6 +10,7 @@ const SITE_ROUTES = [
   "/resources",
   "/login",
   "/register",
+  "/student",
 ];
 
 export function middleware(request: NextRequest) {
