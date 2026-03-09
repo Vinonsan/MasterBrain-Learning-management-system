@@ -21,7 +21,7 @@ const PageChildren = ({ course }: Props) => {
         <CourseReviews reviews={course.reviews} />
       </div>
 
-      <MobileEnrollBar monthlyFee={course.monthlyFee} />
+      <MobileEnrollBar monthlyFee={course.monthlyFee} courseId={course.id} />
     </section>
   );
 };

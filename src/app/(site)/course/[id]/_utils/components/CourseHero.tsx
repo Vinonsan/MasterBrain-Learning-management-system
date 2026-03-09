@@ -53,7 +53,12 @@ const CourseHero = ({ course }: Props) => {
           </div>
 
           <div className="mt-2 flex flex-wrap gap-3">
-            <Button variant="primary" size="md" className="rounded-full" href="/login">
+            <Button
+              variant="primary"
+              size="md"
+              className="rounded-full"
+              href={`/login?from=enroll&courseId=${course.id}`}
+            >
               Enroll Now
             </Button>
             <Button variant="outline" size="md" className="rounded-full" href="/course">
