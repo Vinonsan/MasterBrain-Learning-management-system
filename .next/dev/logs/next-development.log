@@ -1,11 +1,5 @@
-[00:00:03.781] Server  LOG      ✓ Ready in 2.8s
-[00:00:18.594] Server  LOG      ○ Compiling / ...
-[00:00:27.128] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:27.593] Browser WARN    Image with src "http://localhost:3000/images/hero.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:39.990] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:45.903] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:21.671] Browser LOG     course registration payload {"courseId":"al-ict","paidAmount":"1200","paymentMethod":"bank-transfer","receiptFileName":"What is BIOS.pdf","studentId":"MB-STU-2026-0001","transactionId":"n6453"}
-[00:07:04.886] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:05.413] Browser WARN    Image with src "http://localhost:3000/images/hero.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:15.525] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:34.423] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.740] Server  LOG      ✓ Ready in 2.1s
+[00:00:35.026] Server  LOG      ○ Compiling /_not-found/page ...
+[00:00:36.461] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:38.735] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:39.557] Browser WARN    Image with src "http://localhost:3000/images/hero.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
