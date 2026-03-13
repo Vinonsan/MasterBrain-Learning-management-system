@@ -1,44 +1,47 @@
 "use client";
 
-import {
-  BookOpen,
-  CalendarClock,
-  ClipboardList,
-  LayoutDashboard,
-  PlaySquare,
-  UserCircle2,
-} from "lucide-react";
+import Button from "@/src/components/base/Button";
+import { Bell, LogOut, type LucideIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const navItems = [
-  { label: "Dashboard", href: "/student", icon: LayoutDashboard },
-  { label: "My Courses", href: "/student/my-courses", icon: BookOpen },
-  { label: "Live Classes", href: "/student/live-classes", icon: CalendarClock },
-  { label: "Recordings", href: "/student/recordings", icon: PlaySquare },
-  { label: "Assignments / Exams", href: "/student/assignments-exams", icon: ClipboardList },
-  { label: "Profile", href: "/student/profile", icon: UserCircle2 },
-];
+export type SidebarItem = {
+  label: string;
+  href: string;
+  icon: LucideIcon;
+  match?: "exact" | "prefix";
+};
 
-const Sidebar = () => {
+type Props = {
+  items: SidebarItem[];
+  defaultActiveHref?: string;
+};
+
+const Sidebar = ({ items, defaultActiveHref }: Props) => {
   const pathname = usePathname();
-  const hasExactMatch = navItems.some((item) => pathname === item.href);
+  const hasExactMatch = items.some((item) => pathname === item.href);
+
+  const isItemActive = (item: SidebarItem) => {
+    if (pathname === item.href) {
+      return true;
+    }
+
+    if (item.match === "prefix" && pathname.startsWith(`${item.href}/`)) {
+      return true;
+    }
+
+    return !hasExactMatch && item.href === defaultActiveHref;
+  };
 
   return (
-    <aside className="h-full w-full border-r border-black/10 bg-white p-4 shadow-sm">
-      <div className="mb-4 flex items-center gap-2 border-b border-black/10 pb-3">
-        <Image src="/siteicon.png" alt="MasterBrain" width={30} height={30} className="rounded-full" />
-        <div>
-          <p className="text-xs text-zinc-500">MasterBrain</p>
-          <p className="text-sm font-semibold text-dark">Student Menu</p>
-        </div>
-      </div>
+    <aside className="flex h-full w-full flex-col border-r border-black/10 bg-white p-4 shadow-sm">
+     
 
-      <nav className="space-y-2">
-        {navItems.map((item) => {
+      <nav className="flex-1 space-y-2">
+        {items.map((item) => {
           const Icon = item.icon;
-          const isActive = pathname === item.href || (!hasExactMatch && item.href === "/student");
+          const isActive = isItemActive(item);
 
           return (
             <Link
@@ -54,6 +57,21 @@ const Sidebar = () => {
           );
         })}
       </nav>
+
+      <div className="mt-4 border-t border-black/10 pt-4">
+        <div className="space-y-2">
+        
+          <Button
+            href="/login"
+            variant="outline"
+            size="sm"
+            className="flex w-full items-center justify-start rounded-lg"
+          >
+            <LogOut className="h-4 w-4" />
+            Logout
+          </Button>
+        </div>
+      </div>
     </aside>
   );
 };

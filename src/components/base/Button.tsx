@@ -1,6 +1,6 @@
 import React from "react";
 
-type ButtonVariant =
+export type ButtonVariant =
   | "primary"
   | "secondary"
   | "outline"
@@ -8,8 +8,8 @@ type ButtonVariant =
   | "rounded"
   | "transparent";
 
-type ButtonSize = "xs" | "sm" | "md" | "lg";
-type RoundedSize = "sm" | "md" | "lg";
+export type ButtonSize = "xs" | "sm" | "md" | "lg";
+export type RoundedSize = "sm" | "md" | "lg";
 
 type BaseProps = {
   variant?: ButtonVariant;
