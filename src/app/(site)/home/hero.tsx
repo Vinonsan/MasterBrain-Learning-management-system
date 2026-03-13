@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="flex gap-4">
 
             <Button
-             size="lg" 
+             size="md" 
             variant="primary"
             
             >
@@ -34,8 +34,7 @@ const Hero = () => {
 
             <Button
               variant="outline"
-              size="lg"
-              className="rounded-full px-8 py-4"
+              size="md"
             >
               Explore Resources
               <ArrowRight size={18} />
