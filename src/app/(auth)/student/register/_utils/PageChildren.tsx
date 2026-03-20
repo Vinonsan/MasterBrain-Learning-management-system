@@ -1,14 +1,14 @@
 "use client";
 
-import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/register/_components/RegisterFlowProvider";
-import AccountStep from "@/src/app/(auth)/register/_components/steps/AccountStep";
-import AddressStep from "@/src/app/(auth)/register/_components/steps/AddressStep";
-import PersonalInfoStep from "@/src/app/(auth)/register/_components/steps/PersonalInfoStep";
+import { RegisterFlowProvider, useRegisterFlow } from "@/src/app/(auth)/student/register/_components/RegisterFlowProvider";
+import AccountStep from "@/src/app/(auth)/student/register/_components/steps/AccountStep";
+import AddressStep from "@/src/app/(auth)/student/register/_components/steps/AddressStep";
+import PersonalInfoStep from "@/src/app/(auth)/student/register/_components/steps/PersonalInfoStep";
 import {
   RegisterFormValues,
   registerDefaultValues,
-} from "@/src/app/(auth)/register/_types/registerForm.types";
-import { registerFormSchema } from "@/src/app/(auth)/register/_validations/registerForm.schema";
+} from "@/src/app/(auth)/student/register/_types/registerForm.types";
+import { registerFormSchema } from "@/src/app/(auth)/student/register/_validations/registerForm.schema";
 import Button from "@/src/components/base/Button";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Image from "next/image";
@@ -28,7 +28,9 @@ const RegisterPageContent = () => {
   const from = searchParams.get("from");
   const courseId = searchParams.get("courseId");
   const loginHref =
-    from === "enroll" ? `/login?from=enroll${courseId ? `&courseId=${courseId}` : ""}` : "/login";
+    from === "enroll"
+      ? `/student/login?from=enroll${courseId ? `&courseId=${courseId}` : ""}`
+      : "/student/login";
 
   const progressPercentage = Math.round((step / totalSteps) * 100);
   const fieldsByStep: Record<number, (keyof RegisterFormValues)[]> = {

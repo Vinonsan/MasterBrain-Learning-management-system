@@ -13,7 +13,7 @@ export default function TopBar({
   name,
   profileImage = "/siteicon.png",
   roleLabel = "Welcome",
-  logoutHref = "/login",
+  logoutHref = "/student/login",
 }: TopBarProps) {
   return (
     <header className="flex w-full items-center justify-between border border-black/10 px-4 py-3 shadow-sm md:px-6">
