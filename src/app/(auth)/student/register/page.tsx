@@ -1,6 +1,9 @@
 import PageChildren from "./_utils/PageChildren";
 
 export default function RegisterPage() {
-  return <PageChildren />;
+  return (
+    <div className="min-h-screen py-6">
+      <PageChildren />
+    </div>
+  );
 }
-

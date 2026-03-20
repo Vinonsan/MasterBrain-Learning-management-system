@@ -3,12 +3,40 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import type { LucideIcon } from "lucide-react";
+import {
+  BookOpen,
+  BookOpenCheck,
+  CalendarClock,
+  ClipboardList,
+  CreditCard,
+  LayoutDashboard,
+  MessageSquareText,
+  PlaySquare,
+  Settings,
+  UserCircle2,
+  Users,
+} from "lucide-react";
+
+const sidebarIcons = {
+  bookOpen: BookOpen,
+  bookOpenCheck: BookOpenCheck,
+  calendarClock: CalendarClock,
+  clipboardList: ClipboardList,
+  creditCard: CreditCard,
+  dashboard: LayoutDashboard,
+  messageSquareText: MessageSquareText,
+  playSquare: PlaySquare,
+  settings: Settings,
+  userCircle2: UserCircle2,
+  users: Users,
+} as const;
+
+type SidebarIconName = keyof typeof sidebarIcons;
 
 export type SidebarItem = {
   label: string;
   href: string;
-  icon?: LucideIcon;
+  icon?: SidebarIconName;
 };
 
 type SidebarProps = {
@@ -82,7 +110,7 @@ export default function Sidebar({
 
       <nav className="space-y-2">
         {items.map((item) => {
-          const Icon = item.icon;
+          const Icon = item.icon ? sidebarIcons[item.icon] : undefined;
           const active = isActive(item.href);
 
           return (
