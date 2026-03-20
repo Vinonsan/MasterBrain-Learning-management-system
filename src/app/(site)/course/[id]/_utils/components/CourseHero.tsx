@@ -57,7 +57,7 @@ const CourseHero = ({ course }: Props) => {
               variant="primary"
               size="md"
               className="rounded-full"
-              href={`/login?from=enroll&courseId=${course.id}`}
+              href={`/student/login?from=enroll&courseId=${course.id}`}
             >
               Enroll Now
             </Button>

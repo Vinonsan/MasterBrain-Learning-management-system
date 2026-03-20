@@ -15,13 +15,15 @@ const PageChildren = () => {
   const from = searchParams.get("from");
   const courseId = searchParams.get("courseId");
   const registerHref =
-    from === "enroll" ? `/register?from=enroll${courseId ? `&courseId=${courseId}` : ""}` : "/register";
+    from === "enroll"
+      ? `/student/register?from=enroll${courseId ? `&courseId=${courseId}` : ""}`
+      : "/student/register";
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!email || !password) return;
     if (from === "enroll") {
-      router.push(`/course-registration${courseId ? `?courseId=${courseId}` : ""}`);
+      router.push(`/student/course-registration${courseId ? `?courseId=${courseId}` : ""}`);
       return;
     }
     router.push("/student");

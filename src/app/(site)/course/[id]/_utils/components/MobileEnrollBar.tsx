@@ -14,7 +14,7 @@ const MobileEnrollBar = ({ monthlyFee, courseId }: Props) => {
           variant="primary"
           size="sm"
           className="rounded-full"
-          href={`/login?from=enroll&courseId=${courseId}`}
+          href={`/student/login?from=enroll&courseId=${courseId}`}
         >
           Enroll
         </Button>

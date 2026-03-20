@@ -1,26 +1,18 @@
 import type { ReactNode } from "react";
 import Sidebar, { SidebarItem } from "@/src/components/layouts/Sidebar";
 import TopBar from "@/src/components/layouts/TopBar";
-import {
-  LayoutDashboard,
-  BookOpen,
-  CalendarClock,
-  PlaySquare,
-  ClipboardList,
-  UserCircle2,
-} from "lucide-react";
 
 const studentNavItems: SidebarItem[] = [
-  { label: "Dashboard", href: "/student", icon: LayoutDashboard },
-  { label: "My Courses", href: "/student/my-courses", icon: BookOpen },
-  { label: "Live Classes", href: "/student/live-classes", icon: CalendarClock },
-  { label: "Recordings", href: "/student/recordings", icon: PlaySquare },
+  { label: "Dashboard", href: "/student", icon: "dashboard" },
+  { label: "My Courses", href: "/student/my-courses", icon: "bookOpen" },
+  { label: "Live Classes", href: "/student/live-classes", icon: "calendarClock" },
+  { label: "Recordings", href: "/student/recordings", icon: "playSquare" },
   {
     label: "Assignments / Exams",
     href: "/student/assignments-exams",
-    icon: ClipboardList,
+    icon: "clipboardList",
   },
-  { label: "Profile", href: "/student/profile", icon: UserCircle2 },
+  { label: "Profile", href: "/student/profile", icon: "userCircle2" },
 ];
 
 export default function StudentLayout({
