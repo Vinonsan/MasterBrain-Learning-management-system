@@ -8,6 +8,7 @@ const SITE_ROUTES = [
   "/course",
   "/courses",
   "/resources",
+  "/admin",
   "/login",
   "/register",
   "/student",
